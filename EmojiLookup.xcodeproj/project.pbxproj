@@ -14,6 +14,8 @@
 		3D50804C1ED9AB2D00EB862A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D50804A1ED9AB2D00EB862A /* LaunchScreen.storyboard */; };
 		3D5080571ED9AB2D00EB862A /* EmojiLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5080561ED9AB2D00EB862A /* EmojiLookupTests.swift */; };
 		3D5080621ED9AB2D00EB862A /* EmojiLookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5080611ED9AB2D00EB862A /* EmojiLookupUITests.swift */; };
+		3DEDC4711EDC694D000FB1A8 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDC4701EDC694D000FB1A8 /* DefinitionViewController.swift */; };
+		3DEDC4731EE0E651000FB1A8 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDC4721EE0E651000FB1A8 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D50805D1ED9AB2D00EB862A /* EmojiLookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiLookupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5080611ED9AB2D00EB862A /* EmojiLookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLookupUITests.swift; sourceTree = "<group>"; };
 		3D5080631ED9AB2D00EB862A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEDC4701EDC694D000FB1A8 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		3DEDC4721EE0E651000FB1A8 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				3D5080411ED9AB2D00EB862A /* AppDelegate.swift */,
 				3D5080431ED9AB2D00EB862A /* ViewController.swift */,
+				3DEDC4701EDC694D000FB1A8 /* DefinitionViewController.swift */,
+				3DEDC4721EE0E651000FB1A8 /* Emoji.swift */,
 				3D5080451ED9AB2D00EB862A /* Main.storyboard */,
 				3D5080481ED9AB2D00EB862A /* Assets.xcassets */,
 				3D50804A1ED9AB2D00EB862A /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5080441ED9AB2D00EB862A /* ViewController.swift in Sources */,
+				3DEDC4711EDC694D000FB1A8 /* DefinitionViewController.swift in Sources */,
+				3DEDC4731EE0E651000FB1A8 /* Emoji.swift in Sources */,
 				3D5080421ED9AB2D00EB862A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				3D5080681ED9AB2D00EB862A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5080691ED9AB2D00EB862A /* Build configuration list for PBXNativeTarget "EmojiLookupTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				3D50806B1ED9AB2D00EB862A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D50806C1ED9AB2D00EB862A /* Build configuration list for PBXNativeTarget "EmojiLookupUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				3D50806E1ED9AB2D00EB862A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
